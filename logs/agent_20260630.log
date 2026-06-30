@@ -1,0 +1,9 @@
+2026-06-30 15:00:27,327 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-30 15:00:27,328 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-06-30 15:00:52,005 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-06-30 15:00:52,006 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 如何扫地
+2026-06-30 15:00:53,214 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-06-30 15:00:53,214 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人正确使用方法'}
+2026-06-30 15:01:00,379 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-06-30 15:01:05,015 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-06-30 15:01:05,017 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 扫地机器人正确使用方法包括：根据使用场景选择合适机型，如多口之家或有宠物需高吸力和防缠绕功能；吸力建议≥3000Pa，地毯环境需≥4000Pa并可调节；优先选用激光导航以提升复杂户型定位精度。使用前清理地面尖锐物、电线等障碍，避免卡死或缠绕；大户型应分批次清扫，防止电机过热。不同环境需针对性操作：北方干燥多灰环境每日清尘盒、每月深度清洁风道滤网；厨房重油污区域拖地后立即清洗拖布和水箱，必要时手动预处理；卫生间仅扫不拖，避免积水，并开启防跌落功能。木地板调低出水量或用干拖模式，瓷砖/大理石拖后擦干底部水渍，长毛地毯关闭拖地功能并及时清理滚刷纤维。定期更新固件、按说明规范使用，不可超负荷运行。
